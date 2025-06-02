@@ -9,7 +9,6 @@
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 
-// Load shaders from files
 std::string loadShader(const char* path);
 GLuint createShaderProgram(const char* vertexPath, const char* fragmentPath);
 
